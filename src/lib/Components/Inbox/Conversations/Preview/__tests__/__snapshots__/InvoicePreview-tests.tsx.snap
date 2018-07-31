@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InvoicePreview renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderColor": "#e5e5e5",
+        "borderWidth": 1,
+        "flexDirection": "row",
+        "height": 72,
+      },
+      undefined,
+    ]
+  }
+>
+  <Image
+    source={
+      Object {
+        "testUri": "../../../images/payment_request.png",
+      }
+    }
+    style={
+      Array [
+        Object {
+          "marginBottom": 12,
+          "marginLeft": 12,
+          "marginRight": 12,
+          "marginTop": 12,
+          "resizeMode": "contain",
+          "width": 40,
+        },
+        undefined,
+      ]
+    }
+  />
+  <View
+    style={
+      Array [
+        Object {
+          "alignSelf": "center",
+          "flexBasis": 0,
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "fontFamily": "AGaramondPro-Regular",
+            "fontSize": 14,
+          },
+          undefined,
+        ]
+      }
+    >
+      Payment request
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "fontFamily": "AGaramondPro-Regular",
+            "fontSize": 14,
+          },
+          Array [
+            Object {
+              "fontWeight": "bold",
+            },
+            undefined,
+          ],
+        ]
+      }
+    >
+      $420
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignSelf": "center",
+          "height": 25,
+          "marginRight": 15,
+          "width": 78,
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#cccccc",
+            "fontFamily": "AvantGardeGothicITC",
+            "fontSize": 12,
+            "lineHeight": 25,
+            "textAlign": "right",
+          },
+          undefined,
+        ]
+      }
+    >
+      REFUNDED
+    </Text>
+  </View>
+</View>
+`;

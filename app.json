@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Universal Artsy",
+    "description": "Universal interface to art worldwide",
+    "slug": "universal-artsy",
+    "sdkVersion": "27.0.0",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "platforms": ["ios", "android"],
+    "primaryColor": "#f6bd94",
+    "privacy": "unlisted",
+    "icon": "./icon.png",
+    "android": {
+      "icon": "./icon-android.png",
+      "package": "adm.tbergman.universalartsy",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyD6TAyiTkI3nULh6-JhZJqRxJ0S734dw6E"
+        }
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "adm.tbergman.universalartsy"
+    }
+  }
+}

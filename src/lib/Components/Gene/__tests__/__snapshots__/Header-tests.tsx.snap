@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders properly 1`] = `
+<Header
+  gene={
+    Object {
+      "__id": "gene-deep-time",
+      "_id": "gravity-id",
+      "id": "deep-time",
+      "name": "Deep Time",
+    }
+  }
+  shortForm={false}
+/>
+`;

@@ -1,0 +1,214 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders properly 1`] = `
+<View
+  enabled={true}
+  keyboardVerticalOffset={15}
+  onLayout={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      Object {
+        "paddingBottom": 0,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "flexGrow": 1,
+      }
+    }
+  >
+    <Image
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      left={10}
+      nativeID={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      position="absolute"
+      source={
+        Object {
+          "testUri": "../../../images/angle-left.png",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "position": "absolute",
+          },
+          Object {
+            "zIndex": 10,
+          },
+        ]
+      }
+      testID={undefined}
+      top={10}
+    />
+    <RCTScrollView
+      scrollEnabled={false}
+    >
+      <View>
+        <View
+          flex={1}
+          flexDirection="column"
+          justifyContent="space-between"
+          m={0}
+          style={
+            Array [
+              Object {
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "marginBottom": 0,
+                "marginLeft": 0,
+                "marginRight": 0,
+                "marginTop": 0,
+              },
+              undefined,
+            ]
+          }
+        >
+          <View>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              fontSize={5}
+              lineHeight={7}
+              m={4}
+              style={
+                Array [
+                  Object {
+                    "fontFamily": "AGaramondPro-Semibold",
+                    "fontSize": 22,
+                    "lineHeight": 28,
+                    "marginBottom": 20,
+                    "marginLeft": 20,
+                    "marginRight": 20,
+                    "marginTop": 20,
+                    "textAlign": "center",
+                  },
+                  undefined,
+                ]
+              }
+              textAlign="center"
+            >
+              Your credit card
+            </Text>
+            <View
+              m={4}
+              style={
+                Array [
+                  Object {
+                    "marginBottom": 20,
+                    "marginLeft": 20,
+                    "marginRight": 20,
+                    "marginTop": 20,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              PaymentCardTextField
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+  <View
+    m={4}
+    style={
+      Array [
+        Object {
+          "marginBottom": 20,
+          "marginLeft": 20,
+          "marginRight": 20,
+          "marginTop": 20,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      height={50}
+      style={
+        Array [
+          Object {
+            "height": 50,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        accessibilityComponentType={undefined}
+        accessibilityLabel={undefined}
+        accessibilityTraits={undefined}
+        accessible={true}
+        hasTVPreferredFocus={undefined}
+        hitSlop={undefined}
+        isTVSelectable={true}
+        nativeID={undefined}
+        onLayout={undefined}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "rgba(229, 229, 229, 1)",
+            "borderRadius": 2,
+            "flex": 1,
+            "justifyContent": "center",
+          }
+        }
+        testID={undefined}
+        tvParallaxProperties={undefined}
+      >
+        <View
+          style={null}
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "fontSize": 14,
+                },
+                Object {
+                  "color": "white",
+                  "opacity": 1,
+                },
+                Object {
+                  "fontFamily": "Unica77LL-Medium",
+                },
+              ]
+            }
+          >
+            Add credit card
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

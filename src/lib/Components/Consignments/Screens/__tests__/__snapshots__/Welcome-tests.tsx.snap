@@ -1,0 +1,2621 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sets up the right view hierarchy for iPad in landscape mode 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "black",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignSelf": "center",
+          "backgroundColor": "black",
+          "height": "100%",
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+  >
+    <RCTScrollView
+      alwaysBounceVertical={false}
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <View>
+        <View
+          isPad={true}
+          isPortrait={false}
+          isTiny={false}
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "flexBasis": 0,
+                "flexDirection": "column",
+                "flexGrow": 1,
+                "flexShrink": 1,
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            isPad={true}
+            isPortrait={false}
+            isTiny={false}
+            style={
+              Array [
+                Object {
+                  "alignSelf": "center",
+                  "marginBottom": 0,
+                  "marginTop": 0,
+                  "width": 330,
+                },
+                undefined,
+              ]
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              isPad={true}
+              isPortrait={false}
+              isTiny={false}
+              style={
+                Array [
+                  Object {
+                    "color": "white",
+                    "fontFamily": "AvantGardeGothicITC",
+                    "fontSize": 16,
+                    "letterSpacing": 1.474,
+                    "lineHeight": 22,
+                    "marginBottom": 63,
+                    "marginTop": 58,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              SELL WORKS FROM YOUR COLLECTION
+            </Text>
+            <View
+              isPad={true}
+              isPortrait={false}
+              isTiny={false}
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                    "marginBottom": 51,
+                    "marginLeft": 0,
+                    "marginTop": 0,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../images/cam.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "marginRight": 24,
+                      "resizeMode": "contain",
+                      "width": 40,
+                    },
+                    undefined,
+                  ]
+                }
+              />
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Array [
+                    Object {
+                      "color": "white",
+                      "fontSize": 30,
+                      "marginBottom": 20,
+                      "paddingLeft": 20,
+                      "paddingRight": 20,
+                      "textAlign": "center",
+                    },
+                    Array [
+                      Object {
+                        "color": "white",
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "fontSize": 20,
+                        "lineHeight": 22,
+                        "marginBottom": 0,
+                        "marginRight": 0,
+                        "paddingBottom": 0,
+                        "paddingLeft": 0,
+                        "paddingRight": 0,
+                        "paddingTop": 0,
+                        "textAlign": "left",
+                      },
+                      undefined,
+                    ],
+                    Object {
+                      "fontFamily": "AGaramondPro-Regular",
+                    },
+                  ]
+                }
+              >
+                Take a few photos and submit details about the work
+              </Text>
+            </View>
+            <View
+              isPad={true}
+              isPortrait={false}
+              isTiny={false}
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                    "marginBottom": 51,
+                    "marginLeft": 0,
+                    "marginTop": 0,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../images/offer.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "marginRight": 24,
+                      "resizeMode": "contain",
+                      "width": 40,
+                    },
+                    undefined,
+                  ]
+                }
+              />
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Array [
+                    Object {
+                      "color": "white",
+                      "fontSize": 30,
+                      "marginBottom": 20,
+                      "paddingLeft": 20,
+                      "paddingRight": 20,
+                      "textAlign": "center",
+                    },
+                    Array [
+                      Object {
+                        "color": "white",
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "fontSize": 20,
+                        "lineHeight": 22,
+                        "marginBottom": 0,
+                        "marginRight": 0,
+                        "paddingBottom": 0,
+                        "paddingLeft": 0,
+                        "paddingRight": 0,
+                        "paddingTop": 0,
+                        "textAlign": "left",
+                      },
+                      undefined,
+                    ],
+                    Object {
+                      "fontFamily": "AGaramondPro-Regular",
+                    },
+                  ]
+                }
+              >
+                Get offers from galleries and auction houses
+              </Text>
+            </View>
+            <View
+              isPad={true}
+              isPortrait={false}
+              isTiny={false}
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                    "marginBottom": 51,
+                    "marginLeft": 0,
+                    "marginTop": 0,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../images/sell.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "marginRight": 24,
+                      "resizeMode": "contain",
+                      "width": 40,
+                    },
+                    undefined,
+                  ]
+                }
+              />
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Array [
+                    Object {
+                      "color": "white",
+                      "fontSize": 30,
+                      "marginBottom": 20,
+                      "paddingLeft": 20,
+                      "paddingRight": 20,
+                      "textAlign": "center",
+                    },
+                    Array [
+                      Object {
+                        "color": "white",
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "fontSize": 20,
+                        "lineHeight": 22,
+                        "marginBottom": 0,
+                        "marginRight": 0,
+                        "paddingBottom": 0,
+                        "paddingLeft": 0,
+                        "paddingRight": 0,
+                        "paddingTop": 0,
+                        "textAlign": "left",
+                      },
+                      undefined,
+                    ],
+                    Object {
+                      "fontFamily": "AGaramondPro-Regular",
+                    },
+                  ]
+                }
+              >
+                Have your work placed in a gallery or upcoming sale
+              </Text>
+            </View>
+            <View
+              isPad={true}
+              isPortrait={false}
+              isTiny={false}
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                    "marginBottom": 51,
+                    "marginLeft": 0,
+                    "marginTop": 0,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../images/money.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "marginRight": 24,
+                      "resizeMode": "contain",
+                      "width": 40,
+                    },
+                    undefined,
+                  ]
+                }
+              />
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Array [
+                    Object {
+                      "color": "white",
+                      "fontSize": 30,
+                      "marginBottom": 20,
+                      "paddingLeft": 20,
+                      "paddingRight": 20,
+                      "textAlign": "center",
+                    },
+                    Array [
+                      Object {
+                        "color": "white",
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "fontSize": 20,
+                        "lineHeight": 22,
+                        "marginBottom": 0,
+                        "marginRight": 0,
+                        "paddingBottom": 0,
+                        "paddingLeft": 0,
+                        "paddingRight": 0,
+                        "paddingTop": 0,
+                        "textAlign": "left",
+                      },
+                      undefined,
+                    ],
+                    Object {
+                      "fontFamily": "AGaramondPro-Regular",
+                    },
+                  ]
+                }
+              >
+                Receive payment once the
+                
+
+                work sells
+              </Text>
+            </View>
+            <View
+              isPad={true}
+              isPortrait={false}
+              isTiny={false}
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "flexBasis": 0,
+                    "flexGrow": 1,
+                    "flexShrink": 1,
+                    "marginBottom": 10,
+                    "marginTop": 50,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <View
+                accessibilityComponentType={undefined}
+                accessibilityLabel={undefined}
+                accessibilityTraits={undefined}
+                accessible={true}
+                collapsable={undefined}
+                hitSlop={undefined}
+                nativeID={undefined}
+                onLayout={undefined}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "rgba(255, 255, 255, 1)",
+                    "borderColor": "rgba(255, 255, 255, 1)",
+                    "borderWidth": 1,
+                    "height": 43,
+                    "justifyContent": "center",
+                    "marginTop": 0,
+                    "opacity": 1,
+                    "width": 174,
+                  }
+                }
+                testID={undefined}
+              >
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Array [
+                      Object {
+                        "fontSize": 12,
+                      },
+                      Object {
+                        "fontFamily": "AvantGardeGothicITC",
+                      },
+                      Object {
+                        "color": "rgba(0, 0, 0, 1)",
+                        "opacity": 1,
+                      },
+                    ]
+                  }
+                >
+                  GET STARTED
+                </Text>
+              </View>
+              <View
+                accessibilityComponentType={undefined}
+                accessibilityLabel={undefined}
+                accessibilityTraits={undefined}
+                accessible={true}
+                collapsable={undefined}
+                hitSlop={undefined}
+                nativeID={undefined}
+                onLayout={undefined}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "rgba(0, 0, 0, 1)",
+                    "borderColor": "rgba(0, 0, 0, 1)",
+                    "borderWidth": 1,
+                    "height": 43,
+                    "justifyContent": "center",
+                    "marginTop": 4,
+                    "opacity": 1,
+                    "width": 174,
+                  }
+                }
+                testID={undefined}
+              >
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Array [
+                      Object {
+                        "fontSize": 12,
+                      },
+                      Object {
+                        "fontFamily": "AvantGardeGothicITC",
+                      },
+                      Object {
+                        "color": "rgba(255, 255, 255, 1)",
+                        "opacity": 1,
+                      },
+                    ]
+                  }
+                >
+                  CLOSE
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+</View>
+`;
+
+exports[`Sets up the right view hierarchy for iPad in portrait mode 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "black",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignSelf": "center",
+          "backgroundColor": "black",
+          "height": "100%",
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+  >
+    <RCTScrollView
+      alwaysBounceVertical={false}
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <View>
+        <View
+          isPad={true}
+          isPortrait={true}
+          isTiny={false}
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "flexBasis": 0,
+                "flexDirection": "column",
+                "flexGrow": 1,
+                "flexShrink": 1,
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            isPad={true}
+            isPortrait={true}
+            isTiny={false}
+            style={
+              Array [
+                Object {
+                  "alignSelf": "center",
+                  "marginBottom": 0,
+                  "marginTop": 0,
+                  "width": 330,
+                },
+                undefined,
+              ]
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              isPad={true}
+              isPortrait={true}
+              isTiny={false}
+              style={
+                Array [
+                  Object {
+                    "color": "white",
+                    "fontFamily": "AvantGardeGothicITC",
+                    "fontSize": 16,
+                    "letterSpacing": 1.474,
+                    "lineHeight": 22,
+                    "marginBottom": 63,
+                    "marginTop": 230,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              SELL WORKS FROM YOUR COLLECTION
+            </Text>
+            <View
+              isPad={true}
+              isPortrait={true}
+              isTiny={false}
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                    "marginBottom": 51,
+                    "marginLeft": 0,
+                    "marginTop": 0,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../images/cam.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "marginRight": 24,
+                      "resizeMode": "contain",
+                      "width": 40,
+                    },
+                    undefined,
+                  ]
+                }
+              />
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Array [
+                    Object {
+                      "color": "white",
+                      "fontSize": 30,
+                      "marginBottom": 20,
+                      "paddingLeft": 20,
+                      "paddingRight": 20,
+                      "textAlign": "center",
+                    },
+                    Array [
+                      Object {
+                        "color": "white",
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "fontSize": 20,
+                        "lineHeight": 22,
+                        "marginBottom": 0,
+                        "marginRight": 0,
+                        "paddingBottom": 0,
+                        "paddingLeft": 0,
+                        "paddingRight": 0,
+                        "paddingTop": 0,
+                        "textAlign": "left",
+                      },
+                      undefined,
+                    ],
+                    Object {
+                      "fontFamily": "AGaramondPro-Regular",
+                    },
+                  ]
+                }
+              >
+                Take a few photos and submit details about the work
+              </Text>
+            </View>
+            <View
+              isPad={true}
+              isPortrait={true}
+              isTiny={false}
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                    "marginBottom": 51,
+                    "marginLeft": 0,
+                    "marginTop": 0,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../images/offer.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "marginRight": 24,
+                      "resizeMode": "contain",
+                      "width": 40,
+                    },
+                    undefined,
+                  ]
+                }
+              />
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Array [
+                    Object {
+                      "color": "white",
+                      "fontSize": 30,
+                      "marginBottom": 20,
+                      "paddingLeft": 20,
+                      "paddingRight": 20,
+                      "textAlign": "center",
+                    },
+                    Array [
+                      Object {
+                        "color": "white",
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "fontSize": 20,
+                        "lineHeight": 22,
+                        "marginBottom": 0,
+                        "marginRight": 0,
+                        "paddingBottom": 0,
+                        "paddingLeft": 0,
+                        "paddingRight": 0,
+                        "paddingTop": 0,
+                        "textAlign": "left",
+                      },
+                      undefined,
+                    ],
+                    Object {
+                      "fontFamily": "AGaramondPro-Regular",
+                    },
+                  ]
+                }
+              >
+                Get offers from galleries and auction houses
+              </Text>
+            </View>
+            <View
+              isPad={true}
+              isPortrait={true}
+              isTiny={false}
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                    "marginBottom": 51,
+                    "marginLeft": 0,
+                    "marginTop": 0,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../images/sell.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "marginRight": 24,
+                      "resizeMode": "contain",
+                      "width": 40,
+                    },
+                    undefined,
+                  ]
+                }
+              />
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Array [
+                    Object {
+                      "color": "white",
+                      "fontSize": 30,
+                      "marginBottom": 20,
+                      "paddingLeft": 20,
+                      "paddingRight": 20,
+                      "textAlign": "center",
+                    },
+                    Array [
+                      Object {
+                        "color": "white",
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "fontSize": 20,
+                        "lineHeight": 22,
+                        "marginBottom": 0,
+                        "marginRight": 0,
+                        "paddingBottom": 0,
+                        "paddingLeft": 0,
+                        "paddingRight": 0,
+                        "paddingTop": 0,
+                        "textAlign": "left",
+                      },
+                      undefined,
+                    ],
+                    Object {
+                      "fontFamily": "AGaramondPro-Regular",
+                    },
+                  ]
+                }
+              >
+                Have your work placed in a gallery or upcoming sale
+              </Text>
+            </View>
+            <View
+              isPad={true}
+              isPortrait={true}
+              isTiny={false}
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                    "marginBottom": 51,
+                    "marginLeft": 0,
+                    "marginTop": 0,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../images/money.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "marginRight": 24,
+                      "resizeMode": "contain",
+                      "width": 40,
+                    },
+                    undefined,
+                  ]
+                }
+              />
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Array [
+                    Object {
+                      "color": "white",
+                      "fontSize": 30,
+                      "marginBottom": 20,
+                      "paddingLeft": 20,
+                      "paddingRight": 20,
+                      "textAlign": "center",
+                    },
+                    Array [
+                      Object {
+                        "color": "white",
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "fontSize": 20,
+                        "lineHeight": 22,
+                        "marginBottom": 0,
+                        "marginRight": 0,
+                        "paddingBottom": 0,
+                        "paddingLeft": 0,
+                        "paddingRight": 0,
+                        "paddingTop": 0,
+                        "textAlign": "left",
+                      },
+                      undefined,
+                    ],
+                    Object {
+                      "fontFamily": "AGaramondPro-Regular",
+                    },
+                  ]
+                }
+              >
+                Receive payment once the
+                
+
+                work sells
+              </Text>
+            </View>
+            <View
+              isPad={true}
+              isPortrait={true}
+              isTiny={false}
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "flexBasis": 0,
+                    "flexGrow": 1,
+                    "flexShrink": 1,
+                    "marginBottom": 10,
+                    "marginTop": 50,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <View
+                accessibilityComponentType={undefined}
+                accessibilityLabel={undefined}
+                accessibilityTraits={undefined}
+                accessible={true}
+                collapsable={undefined}
+                hitSlop={undefined}
+                nativeID={undefined}
+                onLayout={undefined}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "rgba(255, 255, 255, 1)",
+                    "borderColor": "rgba(255, 255, 255, 1)",
+                    "borderWidth": 1,
+                    "height": 43,
+                    "justifyContent": "center",
+                    "marginTop": 0,
+                    "opacity": 1,
+                    "width": 174,
+                  }
+                }
+                testID={undefined}
+              >
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Array [
+                      Object {
+                        "fontSize": 12,
+                      },
+                      Object {
+                        "fontFamily": "AvantGardeGothicITC",
+                      },
+                      Object {
+                        "color": "rgba(0, 0, 0, 1)",
+                        "opacity": 1,
+                      },
+                    ]
+                  }
+                >
+                  GET STARTED
+                </Text>
+              </View>
+              <View
+                accessibilityComponentType={undefined}
+                accessibilityLabel={undefined}
+                accessibilityTraits={undefined}
+                accessible={true}
+                collapsable={undefined}
+                hitSlop={undefined}
+                nativeID={undefined}
+                onLayout={undefined}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "rgba(0, 0, 0, 1)",
+                    "borderColor": "rgba(0, 0, 0, 1)",
+                    "borderWidth": 1,
+                    "height": 43,
+                    "justifyContent": "center",
+                    "marginTop": 4,
+                    "opacity": 1,
+                    "width": 174,
+                  }
+                }
+                testID={undefined}
+              >
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Array [
+                      Object {
+                        "fontSize": 12,
+                      },
+                      Object {
+                        "fontFamily": "AvantGardeGothicITC",
+                      },
+                      Object {
+                        "color": "rgba(255, 255, 255, 1)",
+                        "opacity": 1,
+                      },
+                    ]
+                  }
+                >
+                  CLOSE
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+</View>
+`;
+
+exports[`Sets up the right view hierarchy for iPhone 4 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "black",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignSelf": "center",
+          "backgroundColor": "black",
+          "height": "100%",
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+  >
+    <RCTScrollView
+      alwaysBounceVertical={false}
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <View>
+        <View
+          isPad={false}
+          isPortrait={true}
+          isTiny={true}
+          style={
+            Array [
+              Object {
+                "alignItems": "stretch",
+                "flexBasis": 0,
+                "flexDirection": "column",
+                "flexGrow": 1,
+                "flexShrink": 1,
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            isPad={false}
+            isPortrait={true}
+            isTiny={true}
+            style={
+              Array [
+                Object {
+                  "alignSelf": "center",
+                  "marginBottom": 0,
+                  "marginTop": 0,
+                  "width": 280,
+                },
+                undefined,
+              ]
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              isPad={false}
+              isPortrait={true}
+              isTiny={true}
+              style={
+                Array [
+                  Object {
+                    "color": "white",
+                    "fontFamily": "AvantGardeGothicITC",
+                    "fontSize": 16,
+                    "letterSpacing": -0.2,
+                    "lineHeight": 22,
+                    "marginBottom": 63,
+                    "marginTop": 58,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              SELL WORKS FROM YOUR COLLECTION
+            </Text>
+            <View
+              isPad={false}
+              isPortrait={true}
+              isTiny={true}
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                    "marginBottom": 51,
+                    "marginLeft": 0,
+                    "marginTop": 0,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../images/cam.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "marginRight": 24,
+                      "resizeMode": "contain",
+                      "width": 40,
+                    },
+                    undefined,
+                  ]
+                }
+              />
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Array [
+                    Object {
+                      "color": "white",
+                      "fontSize": 30,
+                      "marginBottom": 20,
+                      "paddingLeft": 20,
+                      "paddingRight": 20,
+                      "textAlign": "center",
+                    },
+                    Array [
+                      Object {
+                        "color": "white",
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "fontSize": 18,
+                        "lineHeight": 22,
+                        "marginBottom": 0,
+                        "marginRight": 0,
+                        "paddingBottom": 0,
+                        "paddingLeft": 0,
+                        "paddingRight": 0,
+                        "paddingTop": 0,
+                        "textAlign": "left",
+                      },
+                      undefined,
+                    ],
+                    Object {
+                      "fontFamily": "AGaramondPro-Regular",
+                    },
+                  ]
+                }
+              >
+                Take a few photos and submit details about the work
+              </Text>
+            </View>
+            <View
+              isPad={false}
+              isPortrait={true}
+              isTiny={true}
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                    "marginBottom": 51,
+                    "marginLeft": 0,
+                    "marginTop": 0,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../images/offer.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "marginRight": 24,
+                      "resizeMode": "contain",
+                      "width": 40,
+                    },
+                    undefined,
+                  ]
+                }
+              />
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Array [
+                    Object {
+                      "color": "white",
+                      "fontSize": 30,
+                      "marginBottom": 20,
+                      "paddingLeft": 20,
+                      "paddingRight": 20,
+                      "textAlign": "center",
+                    },
+                    Array [
+                      Object {
+                        "color": "white",
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "fontSize": 18,
+                        "lineHeight": 22,
+                        "marginBottom": 0,
+                        "marginRight": 0,
+                        "paddingBottom": 0,
+                        "paddingLeft": 0,
+                        "paddingRight": 0,
+                        "paddingTop": 0,
+                        "textAlign": "left",
+                      },
+                      undefined,
+                    ],
+                    Object {
+                      "fontFamily": "AGaramondPro-Regular",
+                    },
+                  ]
+                }
+              >
+                Get offers from galleries and auction houses
+              </Text>
+            </View>
+            <View
+              isPad={false}
+              isPortrait={true}
+              isTiny={true}
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                    "marginBottom": 51,
+                    "marginLeft": 0,
+                    "marginTop": 0,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../images/sell.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "marginRight": 24,
+                      "resizeMode": "contain",
+                      "width": 40,
+                    },
+                    undefined,
+                  ]
+                }
+              />
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Array [
+                    Object {
+                      "color": "white",
+                      "fontSize": 30,
+                      "marginBottom": 20,
+                      "paddingLeft": 20,
+                      "paddingRight": 20,
+                      "textAlign": "center",
+                    },
+                    Array [
+                      Object {
+                        "color": "white",
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "fontSize": 18,
+                        "lineHeight": 22,
+                        "marginBottom": 0,
+                        "marginRight": 0,
+                        "paddingBottom": 0,
+                        "paddingLeft": 0,
+                        "paddingRight": 0,
+                        "paddingTop": 0,
+                        "textAlign": "left",
+                      },
+                      undefined,
+                    ],
+                    Object {
+                      "fontFamily": "AGaramondPro-Regular",
+                    },
+                  ]
+                }
+              >
+                Have your work placed in a gallery or upcoming sale
+              </Text>
+            </View>
+            <View
+              isPad={false}
+              isPortrait={true}
+              isTiny={true}
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                    "marginBottom": 51,
+                    "marginLeft": 0,
+                    "marginTop": 0,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../images/money.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "marginRight": 24,
+                      "resizeMode": "contain",
+                      "width": 40,
+                    },
+                    undefined,
+                  ]
+                }
+              />
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Array [
+                    Object {
+                      "color": "white",
+                      "fontSize": 30,
+                      "marginBottom": 20,
+                      "paddingLeft": 20,
+                      "paddingRight": 20,
+                      "textAlign": "center",
+                    },
+                    Array [
+                      Object {
+                        "color": "white",
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "fontSize": 18,
+                        "lineHeight": 22,
+                        "marginBottom": 0,
+                        "marginRight": 0,
+                        "paddingBottom": 0,
+                        "paddingLeft": 0,
+                        "paddingRight": 0,
+                        "paddingTop": 0,
+                        "textAlign": "left",
+                      },
+                      undefined,
+                    ],
+                    Object {
+                      "fontFamily": "AGaramondPro-Regular",
+                    },
+                  ]
+                }
+              >
+                Receive payment once the
+                
+
+                work sells
+              </Text>
+            </View>
+            <View
+              isPad={false}
+              isPortrait={true}
+              isTiny={true}
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "flexBasis": 0,
+                    "flexGrow": 1,
+                    "flexShrink": 1,
+                    "marginBottom": 10,
+                    "marginTop": 8,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <View
+                accessibilityComponentType={undefined}
+                accessibilityLabel={undefined}
+                accessibilityTraits={undefined}
+                accessible={true}
+                collapsable={undefined}
+                hitSlop={undefined}
+                nativeID={undefined}
+                onLayout={undefined}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "rgba(255, 255, 255, 1)",
+                    "borderColor": "rgba(255, 255, 255, 1)",
+                    "borderWidth": 1,
+                    "height": 43,
+                    "justifyContent": "center",
+                    "marginTop": 0,
+                    "opacity": 1,
+                    "width": 174,
+                  }
+                }
+                testID={undefined}
+              >
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Array [
+                      Object {
+                        "fontSize": 12,
+                      },
+                      Object {
+                        "fontFamily": "AvantGardeGothicITC",
+                      },
+                      Object {
+                        "color": "rgba(0, 0, 0, 1)",
+                        "opacity": 1,
+                      },
+                    ]
+                  }
+                >
+                  GET STARTED
+                </Text>
+              </View>
+              <View
+                accessibilityComponentType={undefined}
+                accessibilityLabel={undefined}
+                accessibilityTraits={undefined}
+                accessible={true}
+                collapsable={undefined}
+                hitSlop={undefined}
+                nativeID={undefined}
+                onLayout={undefined}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "rgba(0, 0, 0, 1)",
+                    "borderColor": "rgba(0, 0, 0, 1)",
+                    "borderWidth": 1,
+                    "height": 43,
+                    "justifyContent": "center",
+                    "marginTop": 4,
+                    "opacity": 1,
+                    "width": 174,
+                  }
+                }
+                testID={undefined}
+              >
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Array [
+                      Object {
+                        "fontSize": 12,
+                      },
+                      Object {
+                        "fontFamily": "AvantGardeGothicITC",
+                      },
+                      Object {
+                        "color": "rgba(255, 255, 255, 1)",
+                        "opacity": 1,
+                      },
+                    ]
+                  }
+                >
+                  CLOSE
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+</View>
+`;
+
+exports[`Sets up the right view hierarchy for iPhone 5 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "black",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignSelf": "center",
+          "backgroundColor": "black",
+          "height": "100%",
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+  >
+    <RCTScrollView
+      alwaysBounceVertical={false}
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <View>
+        <View
+          isPad={false}
+          isPortrait={true}
+          isTiny={true}
+          style={
+            Array [
+              Object {
+                "alignItems": "stretch",
+                "flexBasis": 0,
+                "flexDirection": "column",
+                "flexGrow": 1,
+                "flexShrink": 1,
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            isPad={false}
+            isPortrait={true}
+            isTiny={true}
+            style={
+              Array [
+                Object {
+                  "alignSelf": "center",
+                  "marginBottom": 0,
+                  "marginTop": 0,
+                  "width": 280,
+                },
+                undefined,
+              ]
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              isPad={false}
+              isPortrait={true}
+              isTiny={true}
+              style={
+                Array [
+                  Object {
+                    "color": "white",
+                    "fontFamily": "AvantGardeGothicITC",
+                    "fontSize": 16,
+                    "letterSpacing": -0.2,
+                    "lineHeight": 22,
+                    "marginBottom": 63,
+                    "marginTop": 58,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              SELL WORKS FROM YOUR COLLECTION
+            </Text>
+            <View
+              isPad={false}
+              isPortrait={true}
+              isTiny={true}
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                    "marginBottom": 51,
+                    "marginLeft": 0,
+                    "marginTop": 0,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../images/cam.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "marginRight": 24,
+                      "resizeMode": "contain",
+                      "width": 40,
+                    },
+                    undefined,
+                  ]
+                }
+              />
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Array [
+                    Object {
+                      "color": "white",
+                      "fontSize": 30,
+                      "marginBottom": 20,
+                      "paddingLeft": 20,
+                      "paddingRight": 20,
+                      "textAlign": "center",
+                    },
+                    Array [
+                      Object {
+                        "color": "white",
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "fontSize": 18,
+                        "lineHeight": 22,
+                        "marginBottom": 0,
+                        "marginRight": 0,
+                        "paddingBottom": 0,
+                        "paddingLeft": 0,
+                        "paddingRight": 0,
+                        "paddingTop": 0,
+                        "textAlign": "left",
+                      },
+                      undefined,
+                    ],
+                    Object {
+                      "fontFamily": "AGaramondPro-Regular",
+                    },
+                  ]
+                }
+              >
+                Take a few photos and submit details about the work
+              </Text>
+            </View>
+            <View
+              isPad={false}
+              isPortrait={true}
+              isTiny={true}
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                    "marginBottom": 51,
+                    "marginLeft": 0,
+                    "marginTop": 0,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../images/offer.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "marginRight": 24,
+                      "resizeMode": "contain",
+                      "width": 40,
+                    },
+                    undefined,
+                  ]
+                }
+              />
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Array [
+                    Object {
+                      "color": "white",
+                      "fontSize": 30,
+                      "marginBottom": 20,
+                      "paddingLeft": 20,
+                      "paddingRight": 20,
+                      "textAlign": "center",
+                    },
+                    Array [
+                      Object {
+                        "color": "white",
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "fontSize": 18,
+                        "lineHeight": 22,
+                        "marginBottom": 0,
+                        "marginRight": 0,
+                        "paddingBottom": 0,
+                        "paddingLeft": 0,
+                        "paddingRight": 0,
+                        "paddingTop": 0,
+                        "textAlign": "left",
+                      },
+                      undefined,
+                    ],
+                    Object {
+                      "fontFamily": "AGaramondPro-Regular",
+                    },
+                  ]
+                }
+              >
+                Get offers from galleries and auction houses
+              </Text>
+            </View>
+            <View
+              isPad={false}
+              isPortrait={true}
+              isTiny={true}
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                    "marginBottom": 51,
+                    "marginLeft": 0,
+                    "marginTop": 0,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../images/sell.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "marginRight": 24,
+                      "resizeMode": "contain",
+                      "width": 40,
+                    },
+                    undefined,
+                  ]
+                }
+              />
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Array [
+                    Object {
+                      "color": "white",
+                      "fontSize": 30,
+                      "marginBottom": 20,
+                      "paddingLeft": 20,
+                      "paddingRight": 20,
+                      "textAlign": "center",
+                    },
+                    Array [
+                      Object {
+                        "color": "white",
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "fontSize": 18,
+                        "lineHeight": 22,
+                        "marginBottom": 0,
+                        "marginRight": 0,
+                        "paddingBottom": 0,
+                        "paddingLeft": 0,
+                        "paddingRight": 0,
+                        "paddingTop": 0,
+                        "textAlign": "left",
+                      },
+                      undefined,
+                    ],
+                    Object {
+                      "fontFamily": "AGaramondPro-Regular",
+                    },
+                  ]
+                }
+              >
+                Have your work placed in a gallery or upcoming sale
+              </Text>
+            </View>
+            <View
+              isPad={false}
+              isPortrait={true}
+              isTiny={true}
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                    "marginBottom": 51,
+                    "marginLeft": 0,
+                    "marginTop": 0,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../images/money.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "marginRight": 24,
+                      "resizeMode": "contain",
+                      "width": 40,
+                    },
+                    undefined,
+                  ]
+                }
+              />
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Array [
+                    Object {
+                      "color": "white",
+                      "fontSize": 30,
+                      "marginBottom": 20,
+                      "paddingLeft": 20,
+                      "paddingRight": 20,
+                      "textAlign": "center",
+                    },
+                    Array [
+                      Object {
+                        "color": "white",
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "fontSize": 18,
+                        "lineHeight": 22,
+                        "marginBottom": 0,
+                        "marginRight": 0,
+                        "paddingBottom": 0,
+                        "paddingLeft": 0,
+                        "paddingRight": 0,
+                        "paddingTop": 0,
+                        "textAlign": "left",
+                      },
+                      undefined,
+                    ],
+                    Object {
+                      "fontFamily": "AGaramondPro-Regular",
+                    },
+                  ]
+                }
+              >
+                Receive payment once the
+                
+
+                work sells
+              </Text>
+            </View>
+            <View
+              isPad={false}
+              isPortrait={true}
+              isTiny={true}
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "flexBasis": 0,
+                    "flexGrow": 1,
+                    "flexShrink": 1,
+                    "marginBottom": 10,
+                    "marginTop": 8,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <View
+                accessibilityComponentType={undefined}
+                accessibilityLabel={undefined}
+                accessibilityTraits={undefined}
+                accessible={true}
+                collapsable={undefined}
+                hitSlop={undefined}
+                nativeID={undefined}
+                onLayout={undefined}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "rgba(255, 255, 255, 1)",
+                    "borderColor": "rgba(255, 255, 255, 1)",
+                    "borderWidth": 1,
+                    "height": 43,
+                    "justifyContent": "center",
+                    "marginTop": 0,
+                    "opacity": 1,
+                    "width": 174,
+                  }
+                }
+                testID={undefined}
+              >
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Array [
+                      Object {
+                        "fontSize": 12,
+                      },
+                      Object {
+                        "fontFamily": "AvantGardeGothicITC",
+                      },
+                      Object {
+                        "color": "rgba(0, 0, 0, 1)",
+                        "opacity": 1,
+                      },
+                    ]
+                  }
+                >
+                  GET STARTED
+                </Text>
+              </View>
+              <View
+                accessibilityComponentType={undefined}
+                accessibilityLabel={undefined}
+                accessibilityTraits={undefined}
+                accessible={true}
+                collapsable={undefined}
+                hitSlop={undefined}
+                nativeID={undefined}
+                onLayout={undefined}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "rgba(0, 0, 0, 1)",
+                    "borderColor": "rgba(0, 0, 0, 1)",
+                    "borderWidth": 1,
+                    "height": 43,
+                    "justifyContent": "center",
+                    "marginTop": 4,
+                    "opacity": 1,
+                    "width": 174,
+                  }
+                }
+                testID={undefined}
+              >
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Array [
+                      Object {
+                        "fontSize": 12,
+                      },
+                      Object {
+                        "fontFamily": "AvantGardeGothicITC",
+                      },
+                      Object {
+                        "color": "rgba(255, 255, 255, 1)",
+                        "opacity": 1,
+                      },
+                    ]
+                  }
+                >
+                  CLOSE
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+</View>
+`;
+
+exports[`Sets up the right view hierarchy for iPhone 6 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "black",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignSelf": "center",
+          "backgroundColor": "black",
+          "height": "100%",
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+  >
+    <RCTScrollView
+      alwaysBounceVertical={false}
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <View>
+        <View
+          isPad={false}
+          isPortrait={true}
+          isTiny={false}
+          style={
+            Array [
+              Object {
+                "alignItems": "stretch",
+                "flexBasis": 0,
+                "flexDirection": "column",
+                "flexGrow": 1,
+                "flexShrink": 1,
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            isPad={false}
+            isPortrait={true}
+            isTiny={false}
+            style={
+              Array [
+                Object {
+                  "alignSelf": "center",
+                  "marginBottom": 0,
+                  "marginTop": 0,
+                  "width": 330,
+                },
+                undefined,
+              ]
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              isPad={false}
+              isPortrait={true}
+              isTiny={false}
+              style={
+                Array [
+                  Object {
+                    "color": "white",
+                    "fontFamily": "AvantGardeGothicITC",
+                    "fontSize": 16,
+                    "letterSpacing": 1.474,
+                    "lineHeight": 22,
+                    "marginBottom": 63,
+                    "marginTop": 58,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              SELL WORKS FROM YOUR COLLECTION
+            </Text>
+            <View
+              isPad={false}
+              isPortrait={true}
+              isTiny={false}
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                    "marginBottom": 51,
+                    "marginLeft": 0,
+                    "marginTop": 0,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../images/cam.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "marginRight": 24,
+                      "resizeMode": "contain",
+                      "width": 40,
+                    },
+                    undefined,
+                  ]
+                }
+              />
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Array [
+                    Object {
+                      "color": "white",
+                      "fontSize": 30,
+                      "marginBottom": 20,
+                      "paddingLeft": 20,
+                      "paddingRight": 20,
+                      "textAlign": "center",
+                    },
+                    Array [
+                      Object {
+                        "color": "white",
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "fontSize": 20,
+                        "lineHeight": 22,
+                        "marginBottom": 0,
+                        "marginRight": 0,
+                        "paddingBottom": 0,
+                        "paddingLeft": 0,
+                        "paddingRight": 0,
+                        "paddingTop": 0,
+                        "textAlign": "left",
+                      },
+                      undefined,
+                    ],
+                    Object {
+                      "fontFamily": "AGaramondPro-Regular",
+                    },
+                  ]
+                }
+              >
+                Take a few photos and submit details about the work
+              </Text>
+            </View>
+            <View
+              isPad={false}
+              isPortrait={true}
+              isTiny={false}
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                    "marginBottom": 51,
+                    "marginLeft": 0,
+                    "marginTop": 0,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../images/offer.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "marginRight": 24,
+                      "resizeMode": "contain",
+                      "width": 40,
+                    },
+                    undefined,
+                  ]
+                }
+              />
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Array [
+                    Object {
+                      "color": "white",
+                      "fontSize": 30,
+                      "marginBottom": 20,
+                      "paddingLeft": 20,
+                      "paddingRight": 20,
+                      "textAlign": "center",
+                    },
+                    Array [
+                      Object {
+                        "color": "white",
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "fontSize": 20,
+                        "lineHeight": 22,
+                        "marginBottom": 0,
+                        "marginRight": 0,
+                        "paddingBottom": 0,
+                        "paddingLeft": 0,
+                        "paddingRight": 0,
+                        "paddingTop": 0,
+                        "textAlign": "left",
+                      },
+                      undefined,
+                    ],
+                    Object {
+                      "fontFamily": "AGaramondPro-Regular",
+                    },
+                  ]
+                }
+              >
+                Get offers from galleries and auction houses
+              </Text>
+            </View>
+            <View
+              isPad={false}
+              isPortrait={true}
+              isTiny={false}
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                    "marginBottom": 51,
+                    "marginLeft": 0,
+                    "marginTop": 0,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../images/sell.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "marginRight": 24,
+                      "resizeMode": "contain",
+                      "width": 40,
+                    },
+                    undefined,
+                  ]
+                }
+              />
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Array [
+                    Object {
+                      "color": "white",
+                      "fontSize": 30,
+                      "marginBottom": 20,
+                      "paddingLeft": 20,
+                      "paddingRight": 20,
+                      "textAlign": "center",
+                    },
+                    Array [
+                      Object {
+                        "color": "white",
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "fontSize": 20,
+                        "lineHeight": 22,
+                        "marginBottom": 0,
+                        "marginRight": 0,
+                        "paddingBottom": 0,
+                        "paddingLeft": 0,
+                        "paddingRight": 0,
+                        "paddingTop": 0,
+                        "textAlign": "left",
+                      },
+                      undefined,
+                    ],
+                    Object {
+                      "fontFamily": "AGaramondPro-Regular",
+                    },
+                  ]
+                }
+              >
+                Have your work placed in a gallery or upcoming sale
+              </Text>
+            </View>
+            <View
+              isPad={false}
+              isPortrait={true}
+              isTiny={false}
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                    "marginBottom": 51,
+                    "marginLeft": 0,
+                    "marginTop": 0,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../images/money.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "marginRight": 24,
+                      "resizeMode": "contain",
+                      "width": 40,
+                    },
+                    undefined,
+                  ]
+                }
+              />
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Array [
+                    Object {
+                      "color": "white",
+                      "fontSize": 30,
+                      "marginBottom": 20,
+                      "paddingLeft": 20,
+                      "paddingRight": 20,
+                      "textAlign": "center",
+                    },
+                    Array [
+                      Object {
+                        "color": "white",
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "fontSize": 20,
+                        "lineHeight": 22,
+                        "marginBottom": 0,
+                        "marginRight": 0,
+                        "paddingBottom": 0,
+                        "paddingLeft": 0,
+                        "paddingRight": 0,
+                        "paddingTop": 0,
+                        "textAlign": "left",
+                      },
+                      undefined,
+                    ],
+                    Object {
+                      "fontFamily": "AGaramondPro-Regular",
+                    },
+                  ]
+                }
+              >
+                Receive payment once the
+                
+
+                work sells
+              </Text>
+            </View>
+            <View
+              isPad={false}
+              isPortrait={true}
+              isTiny={false}
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "flexBasis": 0,
+                    "flexGrow": 1,
+                    "flexShrink": 1,
+                    "marginBottom": 10,
+                    "marginTop": 8,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <View
+                accessibilityComponentType={undefined}
+                accessibilityLabel={undefined}
+                accessibilityTraits={undefined}
+                accessible={true}
+                collapsable={undefined}
+                hitSlop={undefined}
+                nativeID={undefined}
+                onLayout={undefined}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "rgba(255, 255, 255, 1)",
+                    "borderColor": "rgba(255, 255, 255, 1)",
+                    "borderWidth": 1,
+                    "height": 43,
+                    "justifyContent": "center",
+                    "marginTop": 0,
+                    "opacity": 1,
+                    "width": 174,
+                  }
+                }
+                testID={undefined}
+              >
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Array [
+                      Object {
+                        "fontSize": 12,
+                      },
+                      Object {
+                        "fontFamily": "AvantGardeGothicITC",
+                      },
+                      Object {
+                        "color": "rgba(0, 0, 0, 1)",
+                        "opacity": 1,
+                      },
+                    ]
+                  }
+                >
+                  GET STARTED
+                </Text>
+              </View>
+              <View
+                accessibilityComponentType={undefined}
+                accessibilityLabel={undefined}
+                accessibilityTraits={undefined}
+                accessible={true}
+                collapsable={undefined}
+                hitSlop={undefined}
+                nativeID={undefined}
+                onLayout={undefined}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "rgba(0, 0, 0, 1)",
+                    "borderColor": "rgba(0, 0, 0, 1)",
+                    "borderWidth": 1,
+                    "height": 43,
+                    "justifyContent": "center",
+                    "marginTop": 4,
+                    "opacity": 1,
+                    "width": 174,
+                  }
+                }
+                testID={undefined}
+              >
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Array [
+                      Object {
+                        "fontSize": 12,
+                      },
+                      Object {
+                        "fontFamily": "AvantGardeGothicITC",
+                      },
+                      Object {
+                        "color": "rgba(255, 255, 255, 1)",
+                        "opacity": 1,
+                      },
+                    ]
+                  }
+                >
+                  CLOSE
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+</View>
+`;

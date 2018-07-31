@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`looks correct when rendered 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "marginBottom": 15,
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={0}
+    style={
+      Array [
+        Object {
+          "marginLeft": 20,
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      numberOfLines={0}
+      style={
+        Object {
+          "fontFamily": "AGaramondPro-Regular",
+          "fontSize": 30,
+          "textAlign": "left",
+        }
+      }
+    >
+      Recommended Art Fairs
+    </Text>
+  </Text>
+  <RCTScrollView
+    horizontal={true}
+    showsHorizontalScrollIndicator={false}
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+          "marginLeft": 16,
+          "marginRight": 16,
+          "marginTop": 10,
+          "overflow": "visible",
+        },
+        undefined,
+      ]
+    }
+  >
+    <View>
+      <View
+        accessibilityComponentType={undefined}
+        accessibilityLabel={undefined}
+        accessibilityTraits={undefined}
+        accessible={true}
+        hasTVPreferredFocus={undefined}
+        hitSlop={undefined}
+        isTVSelectable={true}
+        nativeID={undefined}
+        onLayout={undefined}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "borderRadius": 60,
+            "height": 120,
+            "marginRight": 7,
+            "width": 120,
+          }
+        }
+        testID={undefined}
+        tvParallaxProperties={undefined}
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "marginLeft": 4,
+                "marginRight": 4,
+              },
+              null,
+            ]
+          }
+        >
+          <AROpaqueImageView
+            imageURL="https://neopets.jpg"
+            placeholderBackgroundColor="white"
+            style={
+              Object {
+                "borderRadius": 60,
+                "height": 120,
+                "marginRight": 7,
+                "width": 120,
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

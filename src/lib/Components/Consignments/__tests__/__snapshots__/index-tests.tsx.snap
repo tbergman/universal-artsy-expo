@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sets up the right navigator view hierarchy 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <RCTNavigator
+    interactivePopGestureEnabled={undefined}
+    onNavigationComplete={[Function]}
+    requestedTopOfStack={0}
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+    vertical={undefined}
+  >
+    <RCTNavItem
+      initialRoute={
+        Object {
+          "component": [Function],
+          "title": "Welcome",
+        }
+      }
+      navigationBarHidden={true}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "white",
+            "bottom": 0,
+            "left": 0,
+            "overflow": "hidden",
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          },
+          undefined,
+          undefined,
+        ]
+      }
+      title="Welcome"
+      translucent={true}
+    >
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "black",
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignSelf": "center",
+                "backgroundColor": "black",
+                "height": "100%",
+                "width": "100%",
+              },
+              undefined,
+            ]
+          }
+        />
+      </View>
+    </RCTNavItem>
+  </RCTNavigator>
+</View>
+`;
