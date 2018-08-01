@@ -9,4 +9,8 @@ This project is developed with the wonderful [Expo](https://expo.io/) toolchain<
 
 WIP
 
-
+Run App :<br/>
+yarn install<br/>
+yarn start<br/>
+open Android Emulator<br/>
+yarn android<br/>
